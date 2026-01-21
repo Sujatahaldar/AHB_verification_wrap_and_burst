@@ -1,0 +1,186 @@
+# Reading C:/modeltech64_10.6d/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd C:/Users/Sujata/Desktop/Amba_project
+do test.do
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 01:57:45 on Sep 06,2023
+# vlog -reportprogress 300 AHB_DESIGN6.v 
+# -- Compiling module amab_ahb_simple
+# 
+# Top level modules:
+# 	amab_ahb_simple
+# End time: 01:57:45 on Sep 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 01:57:45 on Sep 06,2023
+# vlog -reportprogress 300 "+cover" AHB_header.svh 
+# -- Compiling interface intf
+# -- Compiling package AHB_header_svh_unit
+# -- Compiling module tb_top
+# -- Compiling program AHB_tb
+# 
+# Top level modules:
+# 	tb_top
+# End time: 01:57:45 on Sep 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -coverage tb_top 
+# Start time: 01:57:45 on Sep 06,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/Sujata/Desktop/Amba_project/work.tb_top
+# Refreshing C:/Users/Sujata/Desktop/Amba_project/work.AHB_header_svh_unit
+# Loading sv_std.std
+# Loading work.AHB_header_svh_unit
+# Loading work.tb_top
+# Refreshing C:/Users/Sujata/Desktop/Amba_project/work.intf
+# Loading work.intf
+# Refreshing C:/Users/Sujata/Desktop/Amba_project/work.AHB_tb
+# Loading work.AHB_tb
+# Refreshing C:/Users/Sujata/Desktop/Amba_project/work.amab_ahb_simple
+# Loading work.amab_ahb_simple
+run
+# ------------Generator           0---------------
+# VALUES ARE HADDR=11100000 HWDATA=10111001
+# ------------Generator           1---------------
+# VALUES ARE HADDR=10010100 HWDATA=10100001
+# ------------Generator           2---------------
+# VALUES ARE HADDR=10000010 HWDATA=10000000
+# ------------Generator           3---------------
+# VALUES ARE HADDR=10011100 HWDATA=11000011
+# ------------Generator           4---------------
+# VALUES ARE HADDR=1100110 HWDATA=10010110
+# ------------Generator           5---------------
+# VALUES ARE HADDR=10010010 HWDATA=1010110
+# ------------Generator           6---------------
+# VALUES ARE HADDR=11010111 HWDATA=11001000
+# ------------Generator           7---------------
+# VALUES ARE HADDR=111010 HWDATA=1001110
+# ------------Generator           8---------------
+# VALUES ARE HADDR=10101111 HWDATA=11011101
+# ------------Generator           9---------------
+# VALUES ARE HADDR=10011110 HWDATA=11100100
+# ------------Generator          10---------------
+# VALUES ARE HADDR=111010 HWDATA=11010110
+# ------------Generator          11---------------
+# VALUES ARE HADDR=1011011 HWDATA=11111
+# ------------Generator          12---------------
+# VALUES ARE HADDR=110010 HWDATA=11010110
+# ------------Generator          13---------------
+# VALUES ARE HADDR=11100000 HWDATA=1100000
+# ------------Generator          14---------------
+# VALUES ARE HADDR=1001110 HWDATA=10010111
+# ------------Generator          15---------------
+# VALUES ARE HADDR=11010000 HWDATA=10111110
+# ------------Generator          16---------------
+# VALUES ARE HADDR=10000100 HWDATA=10101110
+# ------------Generator          17---------------
+# VALUES ARE HADDR=101 HWDATA=100
+# ------------Generator          18---------------
+# VALUES ARE HADDR=1011010 HWDATA=11011000
+# ------------Generator          19---------------
+# VALUES ARE HADDR=11100110 HWDATA=10111111
+# ------------Generator          20---------------
+# VALUES ARE HADDR=100001 HWDATA=10000011
+# ------------Generator          21---------------
+# VALUES ARE HADDR=11100010 HWDATA=10010001
+# ------------Generator          22---------------
+# VALUES ARE HADDR=1010010 HWDATA=11010001
+# ------------Generator          23---------------
+# VALUES ARE HADDR=10110 HWDATA=1100011
+# ------------Generator          24---------------
+# VALUES ARE HADDR=11001 HWDATA=111
+# ------------Generator          25---------------
+# VALUES ARE HADDR=10011 HWDATA=10010000
+# ------------Generator          26---------------
+# VALUES ARE HADDR=10111100 HWDATA=11010011
+# ------------Generator          27---------------
+# VALUES ARE HADDR=11100111 HWDATA=10011001
+# ------------Generator          28---------------
+# VALUES ARE HADDR=1111101 HWDATA=10011110
+# ------------Generator          29---------------
+# VALUES ARE HADDR=10110000 HWDATA=10110111
+# ------------Generator          30---------------
+# VALUES ARE HADDR=11010001 HWDATA=1100
+# ------------Generator          31---------------
+# VALUES ARE HADDR=1111111 HWDATA=101001
+# ------------Generator          32---------------
+# VALUES ARE HADDR=1111101 HWDATA=100000
+# ------------Generator          33---------------
+# VALUES ARE HADDR=101100 HWDATA=11110000
+# ------------Generator          34---------------
+# VALUES ARE HADDR=10111100 HWDATA=11110011
+# ------------Generator          35---------------
+# VALUES ARE HADDR=1101011 HWDATA=11011101
+# ------------Generator          36---------------
+# VALUES ARE HADDR=10111111 HWDATA=11001001
+# ------------Generator          37---------------
+# VALUES ARE HADDR=11010 HWDATA=1101111
+# ------------Generator          38---------------
+# VALUES ARE HADDR=11000010 HWDATA=11100
+# ------------Generator          39---------------
+# VALUES ARE HADDR=1111110 HWDATA=101011
+# ------------Generator          40---------------
+# VALUES ARE HADDR=11111001 HWDATA=1111001
+# ------------Generator          41---------------
+# VALUES ARE HADDR=111000 HWDATA=1111010
+# ------------Generator          42---------------
+# VALUES ARE HADDR=1000101 HWDATA=101001
+# ------------Generator          43---------------
+# VALUES ARE HADDR=10111111 HWDATA=10001100
+# ------------Generator          44---------------
+# VALUES ARE HADDR=1011000 HWDATA=1011111
+# ------------Generator          45---------------
+# VALUES ARE HADDR=1000011 HWDATA=1110100
+# ------------Generator          46---------------
+# VALUES ARE HADDR=10110010 HWDATA=11110000
+# ------------Generator          47---------------
+# VALUES ARE HADDR=111 HWDATA=10000011
+# ------------Generator          48---------------
+# VALUES ARE HADDR=10101110 HWDATA=111110
+# ------------Generator          49---------------
+# VALUES ARE HADDR=1111101 HWDATA=10111110
+# -----------------Scoreboard-------------------------
+# -----DRIVER------
+# VALUES ARE HADDR=11100000 HWDATA=10111001
+# -----DRIVER------
+# VALUES ARE HADDR=10010100 HWDATA=10100001
+# ----------monitor--------
+# VALUES ARE HADDR=x HWDATA=x
+# ------------------coverage-------------------
+# Address:x Data:x
+# -----------------Scoreboard-------------------------
+# -----DRIVER------
+# VALUES ARE HADDR=10000010 HWDATA=10000000
+# -----DRIVER------
+# VALUES ARE HADDR=10011100 HWDATA=11000011
+# ----------monitor--------
+# VALUES ARE HADDR=10010100 HWDATA=10100001
+# Address:94 Data:a1
+# -----------------Scoreboard-------------------------
+# -----DRIVER------
+# VALUES ARE HADDR=1100110 HWDATA=10010110
+# -----DRIVER------
+# VALUES ARE HADDR=10010010 HWDATA=1010110
+# ----------monitor--------
+# VALUES ARE HADDR=10011100 HWDATA=11000011
+# Address:9c Data:c3
+# -----------------Scoreboard-------------------------
+# -----DRIVER------
+# VALUES ARE HADDR=11010111 HWDATA=11001000
+# -----DRIVER------
+# VALUES ARE HADDR=111010 HWDATA=1001110
+# ----------monitor--------
+# VALUES ARE HADDR=10010010 HWDATA=1010110
+# Address:92 Data:56
+# -----------------Scoreboard-------------------------
