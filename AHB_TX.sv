@@ -15,7 +15,7 @@ class AHB_tx;
   constraint c1{HADDR[31:0]>=32'd0;  HADDR[31:0] <32'd256;};
   constraint c2{HWDATA[31:0]>=32'd0; HWDATA[31:0] <32'd256;};
   constraint c3{HSIZE==3'b010;};
-  constraint c4{HBURST == 3'b000;};
+  constraint c4{HBURST == 3'b010;};
   
     function void print();
       $display("VALUES ARE HADDR=%0b HWDATA=%0b",HADDR,HWDATA);
